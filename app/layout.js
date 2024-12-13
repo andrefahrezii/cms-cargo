@@ -1,10 +1,11 @@
-import { ChakraProvider } from '@chakra-ui/react';
+import { Provider } from "@/components/ui/provider";
+
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html suppressHydrationWarning>
             <body>
-                <ChakraProvider>{children}</ChakraProvider>
+               <Provider>{children}</Provider>
             </body>
         </html>
     );

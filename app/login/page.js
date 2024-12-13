@@ -1,4 +1,5 @@
 // app/login/page.js
+"use client";
 import { Button, Input, Stack } from '@chakra-ui/react';
 
 export default function LoginPage() {
